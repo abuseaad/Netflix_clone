@@ -93,7 +93,7 @@ Make sure you have the following installed on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/netflix-clone.git
+   git clone https://github.com/sadikjemal/netflix-clone.git
    ```
 
 2. **Navigate to the project folder**:
