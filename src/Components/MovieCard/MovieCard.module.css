@@ -1,21 +1,4 @@
-.cardWrapper {
-  position: relative;
-    /* width: 290px; */
-  width: 100%;
-  height: 198px;
-  /* height: auto; */
-   aspect-ratio: 16 / 9;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  /* overflow: hidden; */
-   overflow: visible;
-  z-index: 1;
-  transform-origin: center center;
-}
 .poster {
-  /* width: 227px; */
-  /* height: 128px; */
-  
    width: 100%;
     height: 100%;
   border-radius: 6px;
@@ -23,6 +6,7 @@
   transition: transform 0.3s ease;
   position: relative;
   z-index: 2;
+  gap: 30px;
 }
 .hoverCard {
   position: absolute;
@@ -50,7 +34,8 @@
   backface-visibility: hidden;
   pointer-events: none;
   z-index: 999999;
-}
+};
+
  .cardWrapper:hover .hoverCard {
   opacity: 1;
   visibility: visible;
