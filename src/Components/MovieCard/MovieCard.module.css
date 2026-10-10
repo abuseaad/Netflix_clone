@@ -32,9 +32,14 @@
     /* optimization */
   will-change: transform, opacity;
   backface-visibility: hidden;
-  pointer-events: none;
+   pointer-events: none;
   z-index: 999999;
 };
+.cardWrapper {
+  position: relative;
+  height: 270px;
+  flex-shrink: 0;
+}
 
  .cardWrapper:hover .hoverCard {
   opacity: 1;
